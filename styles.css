@@ -1,0 +1,49 @@
+textarea {
+    height: 1em;
+    width: 250px;
+    resize: none;
+    overflow: hidden;
+}
+
+fieldset {
+    width: 600px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    text-align: center;
+    background-color: rgb(114, 170, 219);
+    box-shadow: 0px 0px 10px grey;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttonLeft {
+    text-align: left;
+}
+
+.printSpace {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.bottom textarea {
+    text-align: left;
+    border: none;
+    width: 600px;
+    height: 500px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>updating list</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="center">
+        <form>
+            <fieldset>
+                <h1 style="text-align: center;">Travel Form</h1>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div class="row">
+                        <textarea id="firstName" placeholder="First Name"></textarea>
+                        <textarea id="lastName" placeholder="Last Name"></textarea>
+                        <br>
+                        Date of Birth:<input type="date" id="birth"></input>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Flight information</legend>
+                    <textarea id="departure" placeholder="Departure City"></textarea>
+                    <textarea id="arrival" placeholder="Arrival City"></textarea>
+                    <br>
+                    <br>
+                    Date Leaving:<input type="date" id="dateLeaving"></input>
+                    <br>
+                    Date Arriving:<input type="date" id="dateArriving"></input>
+                    <br>
+                    <br>
+                    How many Bags: <input style="width: 50px;" placeholder="0" type="text" id="bagAmount"></input>
+                    <br>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Extras</legend>
+                    <p>What food?</p>
+                    <input type="radio">sushi
+                    <input type="radio">cracker
+                    <input type="radio">lettuce
+                    <p>Extra Needs(10$ Each)</p>
+                    <ul>
+                        <input type="radio">Legroom
+                        <input type="radio">Window Seat
+                        <input type="radio">Headphones
+                </fieldset>
+        </form>
+        <h1></h1>
+
+    </div>
+    <div class="bottom">
+        <button onclick="addToList()">Submit</button>
+        <br>
+        <br>
+        <textarea name="" id="people"></textarea>
+
+    </div>
+   <script src="./index.js"></script>
+</body>
+
+</html>
